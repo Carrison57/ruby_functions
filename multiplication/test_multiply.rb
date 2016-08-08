@@ -16,5 +16,9 @@ class TestMultiply < Minitest::Test
 	
 	end
 
+	def test_random
+		assert_equal(8, my_multiply(2, 2, 2))
+	end
+
 
 end

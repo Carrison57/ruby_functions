@@ -1,3 +1,7 @@
-def my_multiply(first_num, second_num)
-	first_num * second_num
+def my_multiply(first_num, second_num, third_num)
+	
+	num = first_num * (second_num * third_num)
+
 end
+
+puts num
