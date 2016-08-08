@@ -11,4 +11,10 @@ class TestMultiply < Minitest::Test
 		assert_equal(10, my_multiply(2, 5))
 	end
 
+	def test_2_times_negative_10_equals_negative_20
+		assert_equal(-20, my_multiply(2, -10))
+	
+	end
+
+
 end
